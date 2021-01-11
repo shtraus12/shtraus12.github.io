@@ -1789,7 +1789,6 @@ button.style3:hover,
 }
 
 .box:after {
-  content: '';
   display: block;
   position: absolute;
   top: -9em;
@@ -1799,7 +1798,6 @@ button.style3:hover,
 }
 
 .box:before {
-  content: '';
   display: block;
   width: 90px;
   height: 66px;
@@ -2107,7 +2105,6 @@ body.is-preload #header footer {
 }
 
 #footer:after {
-  content: '';
   display: block;
   position: absolute;
   top: -4.5em;
