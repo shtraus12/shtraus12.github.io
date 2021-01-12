@@ -1548,6 +1548,31 @@ ul.icons a {
   border: 0;
 }
 
+/*MyMenu*/
+ul.mymenu {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.mymenu li {
+  display: inline-block;
+  /* You can also add some margins here to make it look prettier */
+  zoom: 1;
+  *display: inline;
+  /* this fix is needed for IE7- */
+  line-height: 1em;
+  border-left: solid 1px #dad9d9;
+  padding: 0 0 0 0.5em;
+  margin: 0 0 0 0.5em;
+}
+
+ul.mymenu li:first-child {
+  border-left: 0;
+  padding-left: 0;
+  margin-left: 0;
+}
+
 /* Menu */
 ul.menu {
   cursor: default;
